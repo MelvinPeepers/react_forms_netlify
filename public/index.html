@@ -27,9 +27,10 @@
     <title>React App</title>
   </head>
   <body>
-    <form name='contactForm' netlify hidden>
+    <form name='contactForm' netlify hidde data-netlify-recaptcha="true">
       <input type='text' name='name' />
       <input type='email' name='email' />
+      <div data-netlify-recaptcha="true"></div>
       <textarea name='message'></textarea>
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
