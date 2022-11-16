@@ -5,7 +5,8 @@ export default function Form() {
     <form 
       method='POST' 
       name='contactform' 
-      className='contactForm'>
+      className='contactForm'
+      data-netlify-recaptcha="true">
     
       <input 
         type='hidden' 
@@ -21,6 +22,8 @@ export default function Form() {
         type='email' 
         name='email' 
         placeholder='Enter your email' />
+
+      <div data-netlify-recaptcha="true"></div>
 
       <textarea 
         name='message' 
