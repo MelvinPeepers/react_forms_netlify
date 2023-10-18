@@ -5,7 +5,6 @@ export default function Form() {
     <form 
       method='POST' 
       name='contactform'
-      data-netlify="true"
       className='contactForm'>
     
       <input 
