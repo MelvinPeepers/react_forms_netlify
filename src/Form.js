@@ -4,7 +4,7 @@ export default function Form() {
   return (
     <form 
       method='POST' 
-      name='contactform' 
+      name='contactform'
       className='contactForm'>
     
       <input 
